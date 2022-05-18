@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+nav {
+    text-align: center;
+    text-decoration: none;
+}
 nav a {
     text-align: center;
     background-color: #81C9D9;
