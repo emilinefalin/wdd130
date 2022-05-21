@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+
+:root {
+    --heading-font: Changa One;
+    --paragraph-font: Nunito;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,33 +15,55 @@
 nav {
     text-align: center;
     text-decoration: none;
+    font-family: var(--paragraph-font), sans-serif, Arial;
+
 }
 nav a {
     text-align: center;
     background-color: #81C9D9;
     color: #ffffff;
     text-decoration: none;
+    font-family: var(--paragraph-font), sans-serif, Arial;
+    padding: 35px;
+
 }
 
 nav a:hover {
     background-color: #FCE172;
     color:#2D414D;
+    font-family: var(--paragraph-font), sans-serif, Arial;
+
 }
 
 .home-title {
     color: #2D414D;
+    font-family: var(--heading-font), Impact, 'Arial Bold';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
-#hero-msg h1, #hero-msg h4 {
+#hero-msg h1 {
     text-align: center;
+    font-family: var(--heading-font), Impact, 'Arial Bold';
+
+}
+#hero-msg h4 {
+    text-align: center;
+    font-family: var(--paragraph-font), sans-serif, Arial;
+
 }
 
 .button-box {
     text-align: center;
+    font-family: var(--paragraph-font), sans-serif, Arial;
+
 }
 
 main section {
     text-align: center;
+    font-family: var(--paragraph-font), sans-serif, Arial;
+    box-sizing: border-box;
+
 }
 
 #background {
@@ -42,68 +73,118 @@ main section {
 
 body {
     background-color: #ffffff;
+    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 
 header {
     background-color: #81C9D9;
+    font-family: var(--heading-font), Impact, 'Arial Bold';
 }
 
 .book, .join {
     background-color: #81C9D9;
     color: #ffffff;
     text-decoration: none;
+    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
     background-color: #FCE172;
     color: #2D414D;
+    font-family: var(--paragraph-font), sans-serif, Arial;
 }
 
 footer {
     background-color: #81C9D9;
     color: #2D414D;
+    font-family: var(--paragraph-font), sans-serif, Arial;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
     color: #2D414D;
     text-decoration: none;
+    font-family: var(--paragraph-font), sans-serif, Arial;
 }
 
 footer a:hover {
     color: #ffffff;
+    font-family: var(--paragraph-font), sans-serif, Arial;
 }
 
 footer h3 {
     color:#2D414D;
+    font-family: var(--paragraph-font), sans-serif, Arial;
 }
 
 footer h3 a:hover {
     text-decoration: underline;
+    font-family: var(--paragraph-font), sans-serif, Arial;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer p {
+    padding: 15px;
 }
 
 h4 {
     color: #2D414D;
+    font-family: var(--paragraph-font), sans-serif, Arial;
+}
+
+h2 {
+    margin: 0;
 }
 
 .msg {
     background-color: #81C9D9;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #2D414D;
+    font-family: var(--paragraph-font), sans-serif, Arial;
 }
 
 .msg p {
     color: #2D414D;
+    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 1px solid #2D414D;
 }

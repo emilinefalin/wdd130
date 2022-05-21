@@ -1,0 +1,28 @@
+#top-background {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    display: block;
+    background-color: rgb(97, 97, 97);
+    margin-bottom: 0%;
+}
+
+.image-container {
+    text-align: center;
+    display: block;
+}
+
+.circle-image {
+    display: inline;
+    width: 22%;
+    border-radius: 50%;    
+    border: 8px solid rgb(45, 45, 45);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 4%;
+}
