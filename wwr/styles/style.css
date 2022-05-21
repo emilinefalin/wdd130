@@ -15,7 +15,7 @@
 nav {
     text-align: center;
     text-decoration: none;
-    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-family: var(--paragraph-font), sans-serif, Arial, Helvetica;
 
 }
 nav a {
@@ -23,7 +23,7 @@ nav a {
     background-color: #81C9D9;
     color: #ffffff;
     text-decoration: none;
-    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-family: var(--paragraph-font), sans-serif, Arial, Helvetica;
     padding: 35px;
 
 }
@@ -31,37 +31,37 @@ nav a {
 nav a:hover {
     background-color: #FCE172;
     color:#2D414D;
-    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-family: var(--paragraph-font), sans-serif, Arial, Helvetica;
 
 }
 
 .home-title {
     color: #2D414D;
-    font-family: var(--heading-font), Impact, 'Arial Bold';
+    font-family: var(--heading-font), Impact, 'Arial Bold', Helvetica;
     font-size: 2em;
     margin-top: 10px;
 }
 
 #hero-msg h1 {
     text-align: center;
-    font-family: var(--heading-font), Impact, 'Arial Bold';
+    font-family: var(--heading-font), Impact, 'Arial Bold', Helvetica;
 
 }
 #hero-msg h4 {
     text-align: center;
-    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-family: var(--paragraph-font), sans-serif, Arial, Helvetica;
 
 }
 
 .button-box {
     text-align: center;
-    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-family: var(--paragraph-font), sans-serif, Arial, Helvetica;
 
 }
 
 main section {
     text-align: center;
-    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-family: var(--paragraph-font), sans-serif, Arial, Helvetica;
     box-sizing: border-box;
 
 }
@@ -73,7 +73,7 @@ main section {
 
 body {
     background-color: #ffffff;
-    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-family: var(--paragraph-font), sans-serif, Arial, Helvetica;
     font-size: 22px;
     padding: 0;
     margin: 0;
@@ -81,14 +81,14 @@ body {
 
 header {
     background-color: #81C9D9;
-    font-family: var(--heading-font), Impact, 'Arial Bold';
+    font-family: var(--heading-font), Impact, 'Arial Bold', Helvetica;
 }
 
 .book, .join {
     background-color: #81C9D9;
     color: #ffffff;
     text-decoration: none;
-    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-family: var(--paragraph-font), sans-serif, Arial, Helvetica;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
@@ -98,13 +98,13 @@ header {
 .book:hover, .join:hover {
     background-color: #FCE172;
     color: #2D414D;
-    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-family: var(--paragraph-font), sans-serif, Arial, Helvetica;
 }
 
 footer {
     background-color: #81C9D9;
     color: #2D414D;
-    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-family: var(--paragraph-font), sans-serif, Arial, Helvetica;
     padding: 25px 50px;
     margin-top: 200px;
 }
@@ -112,22 +112,22 @@ footer {
 footer a {
     color: #2D414D;
     text-decoration: none;
-    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-family: var(--paragraph-font), sans-serif, Arial, Helvetica;
 }
 
 footer a:hover {
     color: #ffffff;
-    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-family: var(--paragraph-font), sans-serif, Arial, Helvetica;
 }
 
 footer h3 {
     color:#2D414D;
-    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-family: var(--paragraph-font), sans-serif, Arial, Helvetica;
 }
 
 footer h3 a:hover {
     text-decoration: underline;
-    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-family: var(--paragraph-font), sans-serif, Arial, Helvetica;
 }
 
 footer .social img {
@@ -140,7 +140,7 @@ footer p {
 
 h4 {
     color: #2D414D;
-    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-family: var(--paragraph-font), sans-serif, Arial, Helvetica;
 }
 
 h2 {
@@ -154,12 +154,12 @@ h2 {
 }
 .msg h2 {
     color: #2D414D;
-    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-family: var(--paragraph-font), sans-serif, Arial, Helvetica;
 }
 
 .msg p {
     color: #2D414D;
-    font-family: var(--paragraph-font), sans-serif, Arial;
+    font-family: var(--paragraph-font), sans-serif, Arial, Helvetica;
     font-size: .8em;
     padding-bottom: 15px;
 }
