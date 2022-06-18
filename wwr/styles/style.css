@@ -304,3 +304,10 @@ h2 {
         margin-top: 25px;
     }
 }
+
+.question {
+    text-align: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 5em;
+}

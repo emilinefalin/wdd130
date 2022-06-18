@@ -1,0 +1,80 @@
+.page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1 fr 1fr;
+    grid-column: 1/4;
+    text-align: center;
+    background-color: rgb(78, 107, 164);
+    color: white;
+    border: 5px;
+    border-color: white;
+}
+
+.city-image {
+    text-align: center;
+    width: 100%;
+}
+
+.mini-heading {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(78, 107, 164);
+}
+
+.paragraph {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 80%;
+    text-align: center;
+    
+}
+
+.headline {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.fivem {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.read {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.numbers {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.views {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.fifteen {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.comments {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
